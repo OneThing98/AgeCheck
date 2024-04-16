@@ -140,9 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AgeCheck.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImagePreProcessor.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ImagePreProcessor.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImagePreprocessor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
